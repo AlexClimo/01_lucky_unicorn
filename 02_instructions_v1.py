@@ -18,6 +18,13 @@ def yes_no(question):
             print("please enter yes / no")
 
 
+def instructions():
+    print("**** How to play ****")
+    print()
+    print("The rule of the game go here")
+    print()
+    return ""
+
 # Main Routine goes here...
 show_instructions = yes_no("Have you played the "
                            "game before?")
