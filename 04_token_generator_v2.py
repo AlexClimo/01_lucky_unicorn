@@ -1,4 +1,4 @@
-import random
+ximport random
 
 # main routine goes here
 tokens =["unicorn", "horse", "zebra", "donkey"]
