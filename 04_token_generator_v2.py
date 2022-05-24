@@ -1,12 +1,12 @@
-ximport random
+import random
 
 # main routine goes here
 tokens =["unicorn", "horse", "zebra", "donkey"]
-STARTING_BALANCE = 100
+STARTING_BALANCE = 10
 
 balance = STARTING_BALANCE
 #test loop to generate 20 tokens
-for item in range(0,100) :
+for item in range(0,10) :
     chosen = random.choice(tokens)
 
     # Adjust balance
