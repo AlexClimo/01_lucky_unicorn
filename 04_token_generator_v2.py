@@ -2,11 +2,11 @@ import random
 
 # main routine goes here
 tokens =["unicorn", "horse", "zebra", "donkey"]
-STARTING_BALANCE = 10
+STARTING_BALANCE = 100
 
 balance = STARTING_BALANCE
 #test loop to generate 20 tokens
-for item in range(0,10) :
+for item in range(0,100) :
     chosen = random.choice(tokens)
 
     # Adjust balance
