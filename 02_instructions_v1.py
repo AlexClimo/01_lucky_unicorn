@@ -21,7 +21,7 @@ def yes_no(question):
 def instructions():
     print("**** How to play ****")
     print()
-    print("The rule of the game go here")
+    print("The rules of the game go here")
     print()
     return ""
 
