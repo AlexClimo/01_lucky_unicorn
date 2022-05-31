@@ -1,8 +1,9 @@
-# Functions go here
+
+# Functions go here...
 def yes_no(question):
     valid = False
     while not valid:
-        response = input(question).lower().strip()
+        response = input(question).lower()
 
 
         if response == "yes" or response == "y":
@@ -20,9 +21,17 @@ def yes_no(question):
 def instructions():
     print("**** How to play ****")
     print()
-    print("The rule of the game go here")
+    print("The rules of the game go here")
     print()
     return ""
+
+
+
+
+if played_before == "no":
+    instructions()
+
+print("Program continues")
 
 
 def num_check(question, low, high):
@@ -45,23 +54,14 @@ def num_check(question, low, high):
 
 
 
-# main routine
+# main routine goes here
 
 how_much = num_check("Pick a number between 1-10",1,10)
 
 print("You will be spending ${}".format(how_much))
 
-
-# Main Routine goes here...
-show_instructions = yes_no("Have you played the "
+played_before = yes_no("Have you played the "
                            "game before?")
-print("You chose {}".format(show_instructions))
-print()
-having_fun = yes_no("Are you having fun? ")
-print("You said {} to having fun".format(having_fun))
-
-
-
 
 
 
